@@ -1,0 +1,52 @@
+//
+//  UIMaster.pch
+//  UIMaster
+//
+//  Created by bai on 16/5/16.
+//  Copyright © 2016年 com.UIMaster.com. All rights reserved.
+//
+
+#ifndef UIMaster_pch
+#define UIMaster_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "BHead.h"
+
+/*
+ * shareSDk
+ */
+
+#define ShareSDK_APP_ID    @"1307272a08b13"
+
+/*
+ * 微信
+ */
+#define WX_APP_ID                       @"wx50644bd07c8f494c"
+#define WX_APP_KEY                      @"e2398bdeec1c00f994356f58e97157f6"
+
+/*
+ * 新浪
+ */
+#define SINA_APP_KEY                    @"3573582710"
+#define SINA_APP_SECRET                 @"bf51773251b59db361a0cd6c62afbdfc"
+#define SINA_REDIRECTURI                @"http://www.UIMaster.cn"
+
+/*
+ * QQ空间
+ */
+#define QQ_SPACE_APP_ID                 @"100563392"
+#define QQ_SPACE_APP_KEY                @"a5329f6c69ae5538624d07be70983cec"
+
+
+/*
+ * 腾讯微博
+ */
+#define TENCENT_WEIBO_APP_KEY           @"801447288"
+#define TENCENT_WEIBO_SECRET_KEY        @"55e1bfedc0dff8bc226acfb9d7f082c3"
+#define TENCENT_WEIBO_REDIRECTURI       @"http://www.UIMaster.cn"
+
+
+#endif /* UIMaster_pch */

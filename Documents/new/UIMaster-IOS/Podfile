@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+
+target ‘UIMaster’ do
+    pod 'YYKit’
+    pod 'ReactiveCocoa’
+    pod 'JSPatch', '~> 1.0'
+    pod 'AFNetworking', '~>3.0'
+    pod 'MJRefresh'
+    pod 'WSProgressHUD'
+    pod 'Toast', '~> 3.0'   	
+    pod 'HcdGuideView'
+    pod 'WebViewJavascriptBridge', '~> 5.0'
+    #shareSDK
+    # 主模块(必须)
+    pod 'ShareSDK3'
+    # Mob 公共库(必须)
+    pod 'MOBFoundation'
+    # UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+    pod 'ShareSDK3/ShareSDKUI'
+    # QQ、微信、新浪微博
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+    pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+end
